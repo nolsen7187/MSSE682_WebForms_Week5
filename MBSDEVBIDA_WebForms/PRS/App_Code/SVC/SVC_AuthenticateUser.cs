@@ -36,7 +36,7 @@ public class SVC_AuthenticateUser
             dbConnection.Open();
             string userNameLookupSQLStatement = "select * from MBSWBWEBUSERCONTACT where WEBPASSWORD = '" + Password + "'";
             SqlCommand checkPassword = new SqlCommand(userNameLookupSQLStatement, dbConnection);
-            var tempCheckPassword = checkPassword.ExecuteScalar().ToString();
+            var tempCheckPassword = checkPassword.ExecuteScalar();
             if (tempCheckPassword != null)
             {
                 return true;
