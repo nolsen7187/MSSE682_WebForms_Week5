@@ -1,4 +1,4 @@
-﻿<%@ Page Title="User Administration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Tbl_CustInvoiceJour.aspx.cs" Inherits="Admin" %>
+﻿<%@ Page Title="CustInvoiceJour DataGrid" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Tbl_CustInvoiceJour.aspx.cs" Inherits="Admin" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <hgroup class="title">

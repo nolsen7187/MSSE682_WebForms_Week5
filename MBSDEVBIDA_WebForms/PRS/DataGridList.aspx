@@ -7,8 +7,8 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
     <nav>
         <ul id="menu">
-            <li><a id="registerLink" runat="server" href="~/DataGrid/Tbl_CustInvoicejour">CustInvoiceJour</a></li>
-            <li><a id="loginLink" runat="server" href="~/DataGrid/Tbl_CustInvoicejour">CustInvoiceTrans</a></li>                
+            <li><a id="registerLink" runat="server" href="~/DataGrid/Tbl_CustInvoiceJour">CustInvoiceJour</a></li>
+            <li><a id="loginLink" runat="server" href="~/DataGrid/Tbl_CustInvoiceTrans">CustInvoiceTrans</a></li>                
         </ul>
     </nav>  
 </asp:Content>
